@@ -18,4 +18,9 @@ public class Question {
     private String content; // 질문 내용
 
     private String category; // 질문 카테고리
+
+    public Question(String content, String category) {
+        this.content = content;
+        this.category = category;
+    }
 }
